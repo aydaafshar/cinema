@@ -1,0 +1,52 @@
+.movie {
+  width: 12.5%;
+  /* margin: 20px; */
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  transition: scale 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255, 80%);
+  align-self: stretch;
+}
+@media screen and (max-width: 768px) {
+  .movie {
+    width: 80%;
+  }
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.movie h3 {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  text-overflow: clip;
+  color: black;
+}
+.movie:hover {
+  box-shadow: 0 4px 13px rgba(83, 157, 157, 0.9);
+}
+
+.movie:active {
+  scale: 0.3;
+}
+
+/* @media screen and (max-width: 375px) {
+  .movie {
+    width: 80%;
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    transition: scale 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 80%);
+  }
+  .movie img {
+    width: 100%;
+
+    border-radius: 15px 15px 0 0;
+  }
+} */

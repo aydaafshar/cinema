@@ -1,0 +1,23 @@
+.summary-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 60%;
+  background-color: rgb(255, 255, 255, 80%);
+  padding: 20px;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+  .summary-details {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,35 @@
+.header {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(46, 44, 44);
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.3);
+  margin-bottom: 34px;
+}
+
+.header input {
+  margin: 19px;
+  width: 200px;
+  height: 15px;
+  border-radius: 40px;
+  border: none;
+  padding: 10px;
+  font-family: monospace;
+  text-align: center;
+}
+.header input:focus {
+  outline: none;
+}
+.header button {
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  padding: 15px;
+  background-color: rgb(68, 73, 71);
+  color: white;
+  font-size: 14px;
+}

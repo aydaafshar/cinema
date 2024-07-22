@@ -1,0 +1,26 @@
+.detail-page {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  /* background-color: rgb(0, 0, 0); */
+  background-size: auto;
+  background-position: center;
+  transition: background-image 0.5s ease-out;
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+}
+/* @media screen and (msx-width: 375px) {
+  .detail-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+} */
